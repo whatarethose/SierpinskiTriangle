@@ -1,3 +1,4 @@
+public int n =30;
 public void setup()
 {
 	background(0);
@@ -7,6 +8,13 @@ public void draw()
 {
 	sierpinskiCarpet(50,50,400);
 }
+// public void keyPressed()
+// {
+// 	if(key == "w")
+// 	{
+// 		n+=30;
+// 	}
+// }
 public void mouseDragged()//optional
 {
 
@@ -27,7 +35,7 @@ public void sierpinskiTriangle(int x, int y, int len)
 public void sierpinskiCarpet(int x,int y,int len)
 {	
 	//noStroke();
-	if(len <=10)
+	if(len <10)
 	{
 		
 		fill(255);
