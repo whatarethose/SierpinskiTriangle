@@ -34,7 +34,7 @@ public void sierpinskiTriangle(int x, int y, int len)
 }
 public void sierpinskiCarpet(int x,int y,int len)
 {	
-	//noStroke();
+	noStroke();
 	if(len <10)
 	{
 		
